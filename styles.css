@@ -1,0 +1,426 @@
+* {
+	margin:0;
+}
+
+.wrap {
+	background-color: #e3f1f9;
+	
+}
+.header {
+	background-color: #111a29;
+	background-image: url(header-bg.jpg);
+	height: 26%;
+	background-repeat: no-repeat;
+	background-position: 82%;
+	color: white;
+	font-family: Arial, "Helvetica",  sans-serif;
+	font-weight: lighter;
+	
+
+}
+
+#headline {
+	font-size: 2.5em;
+	margin-top: 0px;
+	padding-top: 4%;
+	padding-left: 14%;
+	margin-bottom: 7px;
+}
+
+#info {
+	font-size: 1.125em;
+	padding-left: 14%;
+	margin-bottom: 0px;
+}
+#dates {
+	padding-left: 14%;
+	padding-top: 1.1%;
+	font-size: 1.625em;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.body {
+	background-color: #e3f1f9;
+	width: 100%;
+	height: 100%;	
+}
+
+.name  {
+	background-color: #bfd4de;
+	color: #364654;
+	height: 5.2%;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1.5em;
+	padding-left: 14%;
+	vertical-align: middle;
+	padding-top: 0.7%;
+	font-weight: bold;
+	padding-bottom: 7px;
+}
+
+#form {
+	display: table;
+	box-sizing:border-box;
+	overflow: hidden;
+	text-align: right;
+	width: 90%;
+
+	
+	
+}
+.row {
+    display: table-row;
+}
+.col {
+    border: none;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+    margin-left: 7px;
+  
+text-align: right}
+    .row:nth-of-type(even) {
+  
+}
+
+
+@media screen and (max-width: 1024px),
+(min-device-width: 600px) and (max-device-width: 1024px) {
+   
+    .row {
+        border: none;
+    }
+    .col {
+        border: none;
+    }
+    .row > .col:nth-child(1),
+    .col:nth-child(3) {
+        float: left;
+        width: 60%;
+        border-right: none;
+    }
+    .row > .col:nth-child(2),
+    .col:nth-child(4) {
+        float: right;
+        width: 60%;
+    }
+}
+
+
+@media only screen and (max-width: 600px),
+(min-device-width: 0px) and (max-device-width: 600px) {
+    .wrapper {
+        display: table;
+        border: none;
+    }
+    .row > .col:nth-child(1),
+    .col:nth-child(3) {
+        width: 100%;
+    }
+    .row > .col:nth-child(2),
+    .col:nth-child(4) {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .row > .col:nth-child(2) {
+        border-bottom: none;
+        border-top: none;
+    }
+    .row > .col:nth-child(4) {
+        border-top: none;
+    }
+}
+
+.regForm {
+	
+ width: 76%;
+ background-color: white;
+ margin-left: 14%;
+ text-align: center;
+ margin-bottom: 3.5%;
+ padding: 0 auto;
+ 
+}
+
+.data{
+
+	height: auto;
+}
+.regForm input {
+	
+	margin: 0.7%;
+display: inline-block;	
+font-size: 1em;
+	text-align: left;
+	color: #414f5c;
+	margin:10px;
+
+}
+.regForm select 
+{
+font-size: 1em;
+	text-align: center;
+	color: #414f5c;
+	margin:10px;
+}
+.regForm label {
+	
+	
+	font-weight: bolder;
+	color: #364654;
+	text-align: right;
+	
+	white-space: nowrap;
+
+}
+.regForm p {
+	font-style: italic;
+	color: #3b4a58;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.data input{
+	width: 60%;
+}
+.data select {
+	width: 60%;
+}
+
+.footer {
+	background-color: #364654;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	color: white;
+    left: 0; bottom: 0; 
+    font-family: "Helvetica";
+    font-family: sans-serif;
+    z-index: 2;
+
+}
+.links {
+	position: absolute;
+	right:9.85%;
+	vertical-align: middle;
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-size: 0.875em;
+	margin-top: 1.05%;
+}
+ a  {
+ 	color:white;
+ 	padding: 0 1.05%;
+ 	margin-left: 10px;
+ 	white-space: nowrap;
+
+ }
+ .footer p {
+ 	margin-left: 14%;
+ 	vertical-align: middle;
+ 	float: left;
+ 	font-weight: 500%;
+ 	margin-top: 1.05%;
+ 	
+ }
+ #but {
+ 	border-radius: 5px;
+ 	background-color: #364654;
+ 	width: 9.85%;
+ 	height: 3%;
+ 	color: white;
+	font-weight: bolder;
+ 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align:center;
+	font-size: 0.9em;
+	position: relative;
+	left: -35%;
+
+
+ }
+
+
+
+ @media (max-width: 760px){
+
+.header {
+	
+	height: 200px;
+	background-position: 500px;
+	font-size: 12px;
+}
+#headline {
+	font-size: 26px;
+}
+
+	.name  {
+	
+	height: 35px;
+	
+	font-size: 18px;
+	padding-left: 14%;
+	vertical-align: middle;
+	padding-top: 7px;
+	margin-bottom: 5px;
+}
+.links {
+	
+	right:10%;
+	vertical-align: middle;
+	font-size: 0.6em;
+	margin-top: 1.05%;
+	white-space: nowrap;
+}
+ 
+ .footer p {
+ 	margin-left: 14%;
+ 	vertical-align: middle;
+ 	float: left;
+ 	font-weight: 500%;
+ 	margin-top: 1.05%;
+ 	font-size: 0.7em
+ 	
+ }
+}
+
+@media (max-width: 480px){
+	.header {
+	
+	height: 150px;
+	background-position: 220px;
+	font-size: 14px;
+	background-color: #111a29;
+	background-image: none;
+}
+.name  {
+	
+	height: 30px;
+	
+	font-size: 14px;
+	padding-left: 14%;
+	vertical-align: middle;
+	padding-top: 5px;
+
+}
+.regForm {
+	padding-left: 10%;
+}
+#headline {
+	font-size: 22px;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-left: 80px;
+}
+
+#info {
+	font-size: 14px;
+	padding-left: 80px;
+	margin-bottom: 0px;
+}
+#dates {
+	padding-left: 80px;
+	padding-top: 5px;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+	 #but {
+ 	border-radius: 5px;
+	font-size: 0.6em;
+	width: 11%;
+ 	height: 4%;
+ 	position: absolute;
+ 	left: 250px;
+ }
+.links {
+	position: absolute;
+	right:9.85%;
+	vertical-align: middle;
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-size: 0.7em;
+	margin-top: 1.05%;
+}
+ a  {
+ 	color:white;
+ 	padding: 0 1.05%;
+ 	margin-left: 7px;
+
+ }
+ .footer p {
+ 	margin-left: 14%;
+ 	vertical-align: middle;
+ 	float: left;
+ 	font-weight: 500%;
+ 	margin-top: 1.05%;
+ 	font-size: 0.7em;
+ 	
+ }
+
+}
+@media (max-width: 360px){
+.header {
+	
+	height: 100px;
+	background-position: 140px;
+	font-size: 12px;
+	background-color: #111a29;
+	background-image: none;
+}
+.regForm {
+	padding-left: 12%;
+}
+.name  {
+	
+	height: 25px;
+	font-size: 12px;
+	padding-left: 14%;
+	vertical-align: middle;
+	padding-top: 3px;
+
+}
+
+	#headline {
+	font-size: 16px;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-left: 80px;
+}
+
+#info {
+	font-size: 10px;
+	padding-left: 80px;
+	margin-bottom: 0px;
+}
+#dates {
+	padding-left: 80px;
+	padding-top: 5px;
+	font-size: 12px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+	.regForm input {
+width: 100px;
+padding-left: 80px;
+	}
+	.regForm select {
+		width: 100px;
+		padding-left: 80px;
+	}
+ #but {
+ 	border-radius: 5px;
+	font-size: 0.4em;
+	width: 14%;
+ 	height: 5%;
+
+
+
+ }
+
+}
+
+
