@@ -1,5 +1,6 @@
 * {
 	margin:0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .wrap {
@@ -152,6 +153,7 @@ text-align: right}
 	margin: 0.7%;
 display: inline-block;	
 font-size: 1em;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	text-align: left;
 	color: #414f5c;
 	margin:10px;
@@ -170,6 +172,7 @@ font-size: 1em;
 	font-weight: bolder;
 	color: #364654;
 	text-align: right;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	
 	white-space: nowrap;
 
